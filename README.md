@@ -30,6 +30,14 @@ Use `uv` to synchronize dependencies and create a virtual environment:
 uv sync
 ```
 
+### Windows Specifics
+- **No Extra Drivers**: Works natively using WASAPI. You do **not** need "Stereo Mix" or Virtual Audio Cables.
+- **Privacy Settings**: Ensure "Microphone access" and "Let desktop apps access your microphone" are enabled in **Windows Settings > Privacy > Microphone**.
+- **Default Devices**: The tool captures the "Default" Windows input and output. Set your desired headset/mic as the default in Windows Sound Settings before running.
+
+### macOS Specifics
+- **Loopback**: Requires an aggregate device or a tool like [BlackHole](https://github.com/ExistentialAudio/BlackHole) to capture system audio.
+
 ### 3. Running the Application
 
 To start the meeting assistant:
