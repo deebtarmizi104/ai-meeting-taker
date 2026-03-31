@@ -3,7 +3,8 @@
 A cross-platform tool to record meetings (microphone + system audio) and generate structured meeting minutes using Gemini AI.
 
 ## ⚠️ Disclaimer
-This repository is a fork of harithjamadi/ai-meeting-taker.
+This repository is a fork of [harithjamadi/ai-meeting-taker](https://github.com/harithjamadi/ai-meeting-taker).
+
 All original work belongs to the original author.
 
 I am using this repository for learning / modification purposes.
